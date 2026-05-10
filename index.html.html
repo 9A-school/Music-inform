@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мир Музыки</title>
+
+  <style>
+    body{
+      margin:0;
+      font-family:Arial, sans-serif;
+      background:#f4f4f4;
+      color:#222;
+    }
+
+    header{
+      background:#5b21b6;
+      color:white;
+      text-align:center;
+      padding:30px;
+    }
+
+    nav{
+      background:#45208c;
+      padding:15px;
+      text-align:center;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      margin:0 15px;
+      font-weight:bold;
+    }
+
+    section{
+      padding:40px 10%;
+    }
+
+    h2{
+      color:#5b21b6;
+    }
+
+    .cards{
+      display:flex;
+      gap:20px;
+      flex-wrap:wrap;
+      margin-top:20px;
+    }
+
+    .card{
+      background:white;
+      padding:20px;
+      border-radius:10px;
+      box-shadow:0 3px 10px rgba(0,0,0,0.1);
+      flex:1;
+      min-width:220px;
+    }
+
+    footer{
+      background:#222;
+      color:white;
+      text-align:center;
+      padding:20px;
+      margin-top:30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🎵 Мир Музыки</h1>
+    <p>Информационный сайт о музыке и музыкальных жанрах</p>
+  </header>
+
+  <nav>
+    <a href="#about">О музыке</a>
+    <a href="#genres">Жанры</a>
+    <a href="#facts">Факты</a>
+  </nav>
+
+  <section id="about">
+    <h2>Что такое музыка?</h2>
+
+    <p>
+      Музыка — это искусство звуков, которое помогает людям
+      выражать эмоции, настроение и чувства. Музыка существует
+      уже тысячи лет и является частью культуры всех народов мира.
+    </p>
+  </section>
+
+  <section id="genres">
+    <h2>Популярные жанры музыки</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>🎸 Рок</h3>
+        <p>
+          Жанр с энергичным звучанием гитар,
+          барабанов и мощным вокалом.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>🎹 Поп</h3>
+        <p>
+          Популярная музыка с запоминающимися
+          мелодиями и современным звучанием.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>🎧 Электронная музыка</h3>
+        <p>
+          Музыка, созданная с помощью
+          электронных инструментов и технологий.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="facts">
+    <h2>Интересные факты</h2>
+
+    <ul>
+      <li>🎼 Музыка может улучшать настроение.</li>
+      <li>🎤 Самым популярным инструментом считается пианино.</li>
+      <li>🎵 Люди слушают музыку уже более 35 000 лет.</li>
+    </ul>
+  </section>
+</body>
+</html>
